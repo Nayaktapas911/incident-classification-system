@@ -56,15 +56,6 @@ GET /api/dashboard
 * The topic with highest keyword match is assigned
 * If no match → marked as UNCLASSIFIED
 
-## Setup Instructions
-
-1. Clone repository
-   git clone https://github.com/your-username/incident-classification-system.git
-
-2. Configure PostgreSQL in application.properties
-
-3. Run Spring Boot application
-
 ## Sample Output
 
 {
