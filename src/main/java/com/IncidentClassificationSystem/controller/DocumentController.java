@@ -42,7 +42,7 @@ public class DocumentController {
 	}
 
 	@GetMapping("/{id}/results")
-	public Map<String, Object> getResults(@PathVariable Long id) {
+	public Map<String, Object> getResults(@PathVariable("id") Long id) {
 
 		List<ClassifiedText> list = classifiedTextRepository.findAll();
 
